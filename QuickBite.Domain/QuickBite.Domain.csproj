@@ -6,13 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\QuickBite.Application\QuickBite.Application.csproj" />
-    <ProjectReference Include="..\QuickBite.Infrastructure\QuickBite.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
-
 </Project>
