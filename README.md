@@ -42,6 +42,7 @@ QuickBite.Application/ # Services, DTOs, CQRS/Handlers, Validators
 
 - [.NET SDK 10.0+](https://dotnet.microsoft.com/download)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server) or [Docker](https://www.docker.com/) for local DB
+- ---
 
 ### Setup Instructions
 
@@ -61,11 +62,14 @@ QuickBite.Application/ # Services, DTOs, CQRS/Handlers, Validators
    dotnet run --project QuickBite.API
 5. **Explore Swagger UI**
    https://localhost:5001/swagger
+---
    
 📊 **Database Schema & Key Entities**
 User: Extends IdentityUser with BitePoints balance, membership tiers, and contact preferences.
 Restaurant & Menu: Categorized menu items with hierarchical customizable options (e.g., Patty size, Cheeses, Add-ons).
 Cart & Order: Cart with snapshot pricing into orders and order items.
 Delivery: Courier assignment, tracking URL, and status workflow (Assigned -> InTransit -> Delivered).
+
+---
 
 <img width="4869" height="8192" alt="Class Digram" src="https://github.com/user-attachments/assets/25193c4e-595d-4bf0-90fd-4f87543a7ce3" />
