@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="QuickBite.API/QuickBite.API.csproj" />
+    <Project Path="QuickBite.Application/QuickBite.Application.csproj" />
+    <Project Path="QuickBite.Domain/QuickBite.Domain.csproj" />
+    <Project Path="QuickBite.Infrastructure/QuickBite.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
