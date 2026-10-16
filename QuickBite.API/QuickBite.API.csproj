@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QuickBite.Application\QuickBite.Application.csproj" />
+    <ProjectReference Include="..\QuickBite.Infrastructure\QuickBite.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
